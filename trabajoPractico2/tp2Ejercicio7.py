@@ -11,5 +11,5 @@ restoHoras = restoDias % 3600
 minutos = trunc(restoHoras / 60)
 restoMinutos = restoHoras % 60
 
-print("El período ingresado equivale a: ", dias, "dias",horas, "horas", minutos, "minutos", restoMinutos, "segundos")
+print("El período ingresado equivale a: ", dias, "dias,",horas, "horas,", minutos, "minutos y", restoMinutos, "segundos")
 
