@@ -7,4 +7,4 @@ if num1 % num2 == 0:
 elif num2 % num1 == 0:
     print("El número", num2, "es múltiplo de", num1)
 else:
-    print("Los numeros no son multiplos")
+    print("Los números no son múltiplos")
