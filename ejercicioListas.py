@@ -40,3 +40,15 @@ for i in range(5):
         posicion = i
 
 print("El elemento mas grande se encuentra en la posicion: ", posicion, "y tiene el valor ", mayorValor)
+
+
+list4 = []
+valorPorTeclado = 0
+
+for i in range(5):
+    valorPorTeclado = int(input("Por favor, ingrese un número: "))
+    list4 = valorPorTeclado[i]
+for i in range(5):
+    if list4[i] > mayorValor:
+         mayorValor = list4[i]
+         posicion = i
